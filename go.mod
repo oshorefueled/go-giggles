@@ -2,7 +2,10 @@ module github.com/oshorefueled/go_giggles
 
 go 1.20
 
-require gioui.org v0.1.0
+require (
+	gioui.org v0.1.0
+	github.com/sashabaranov/go-openai v1.14.1
+)
 
 require (
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect
